@@ -1,3 +1,4 @@
+$("#top-menu").load( "header.html" );
 
 $(document).ready(function () {
     
@@ -7,7 +8,7 @@ $(document).ready(function () {
         
         $(".hamburger").click(function () {
             
-            $("#wrapper").animate({"margin-top": "250px"}, "slow");
+            $(".wrapper-main").animate({"margin-top": "250px"}, "slow");
 
             $(".menu").slideToggle("slow", function () {
 
@@ -22,7 +23,7 @@ $(document).ready(function () {
 
 $(".cross").click(function() {
     
-    $("#wrapper").animate({"margin-top": "35px"}, "slow");
+    $(".wrapper-main").animate({"margin-top": "35px"}, "slow");
 
     $(".menu").slideToggle( "slow", function() {
         
@@ -35,3 +36,4 @@ $(".cross").click(function() {
 });
 
 })
+
