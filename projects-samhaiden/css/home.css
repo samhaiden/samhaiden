@@ -1,0 +1,99 @@
+/* Desktop and Tablet */
+
+@media screen and (min-width: 850px) {
+
+    
+    body {
+        font-family: Raleway;
+        font-size: 22px;
+        color: black;
+        font-weight: 400;
+        letter-spacing: 2px;
+
+    }
+
+    #wrapper {
+        display: grid;
+        grid-template-columns: repeat(14, auto);
+        grid-template-rows: repeat(10, 100px);
+        grid-gap: 10px;
+        text-align: center;
+        margin: auto;
+        clear: both;
+    }
+    
+    .hamburger, .cross {
+        display: none;
+    }
+    
+    .menu {
+        display: block !important;
+        float: right;
+        margin: 25px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        list-style-type: none; 
+    }
+    
+    #projects-logo, header {
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        margin: 10px 0px 0px 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        margin: 0px 15px 0px 15px;
+        color: black;
+    }
+    
+    a:hover {
+        color: grey;
+    }
+    
+    a:active {
+        color: grey;
+    }
+
+    .container {
+        border: 1px solid black;
+    }
+
+    .title {
+        line-height: 200px;
+        margin: auto;
+        font-weight: 400;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    
+    .row-one {
+        grid-row: 2/4;
+    }
+    
+    .row-two {
+        grid-row: 4/6;
+
+    }
+    
+    .one {
+        grid-column: 2/6;
+        
+    }
+
+    .two {
+        grid-column: 6/10;
+    }
+
+    .three {
+        grid-column: 10/14;
+    }
+
+    
+    .fa {
+        font-size: 40px !important;
+    }
+
+
+}

@@ -1,6 +1,6 @@
 /* Desktop and Tablet */
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 850px) {
 
     
     body {
@@ -38,7 +38,7 @@
     #projects-logo, header {
         position: relative;
         display: inline-block;
-        width: 150px;
+        width: 250px;
         margin: 10px 0px 0px 10px;
     }
     
@@ -77,6 +77,11 @@
 
     }
     
+    .row-three {
+        grid-row: 6/8;
+
+    }
+    
     .one {
         grid-column: 2/6;
         
@@ -88,6 +93,13 @@
 
     .three {
         grid-column: 10/14;
+    }
+    
+    .all-columns {
+        grid-column: 2/14;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 20px;
     }
 
     
