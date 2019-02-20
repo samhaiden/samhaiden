@@ -1,0 +1,189 @@
+/* Desktop and Tablet */
+
+@media screen and (min-width: 850px) {
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+    
+    body {
+        font-family: Raleway;
+        font-size: 22px;
+        color: black;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin: 0px !important;
+
+    }
+    
+    .menu-wrapper {
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        background-color: black;
+        
+    }
+    
+    #hero {
+        background-image: url(https://mythsandmountains.com/wp-content/uploads/2018/10/myths-and-mountains-and-beyond.jpg);
+        grid-column: 1/-1;
+        grid-row: 1/1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        
+    }
+
+    #wrapper {
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, minmax(100px, auto));
+        grid-gap: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 68px;
+        clear: both;
+    }
+    
+    .hamburger, .cross {
+        display: none;
+    }
+    
+    .menu {
+        display: block !important;
+        float: right;
+        margin: 25px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        list-style-type: none; 
+        color: white;
+    }
+    .menu-link {
+        color: white;
+    }
+    
+    #projects-logo, header {
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        margin: 10px 0px 0px 10px;
+        color: white;
+    }
+    
+    a {
+        text-decoration: none;
+        margin: 0px 15px 0px 15px;
+        color: black;
+    }
+    
+    a:hover {
+        color: grey;
+    }
+    
+    a:active {
+        color: grey;
+    }
+
+    .container {
+        border: 1px solid black;
+    }
+
+    .title {
+        line-height: 200px;
+        margin: auto;
+        font-weight: 400;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    
+    .row-one {
+        grid-row: 2/3;
+        margin-top: 50px;
+    }
+    
+    .row-two {
+        grid-row: 3/4;
+
+    }
+    
+    .row-three {
+        grid-row: 4/5;
+
+    }
+    
+    .col-one {
+        grid-column: 2/3;
+        
+    }
+
+    .col-two {
+        grid-column: 3/4;
+    }
+
+    .col-three {
+        grid-column: 4/5;
+    }
+    
+    .all-columns {
+        grid-column: 2/5;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    
+    .fa {
+        font-size: 40px !important;
+    }
+
+
+}
