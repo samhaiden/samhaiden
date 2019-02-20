@@ -17,7 +17,7 @@
             <a href="https://www.samhaiden.com/">Home</a>
         
 
-            <a href="https://www.samhaiden.com/on-location">On Location</a>
+            <a href="https://www.projects.samhaiden.com/">Projects</a>
     
 
             <a href="https://www.samhaiden.com/about">About</a>
