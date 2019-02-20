@@ -7,9 +7,9 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="/css/home.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="/css/projects-home.css" />
 
-        <link rel="stylesheet" type="text/css" media="screen and (max-width: 749px)" href="/css/home-mobile.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 749px)" href="/css/projects-home-mobile.css" />
 
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 

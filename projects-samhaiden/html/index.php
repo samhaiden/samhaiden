@@ -2,18 +2,18 @@
 
 <head>
 
-    <?php include("include/header.php");?>
-
+    <?php include("include/projects-header.php");?>
+          
 </head>
 
 <body>
 
-    <?php include("include/menu.php");?>
+    <?php include("include/projects-menu.php");?>
 
     <div id="wrapper" class="wrapper-main">
 
 
-        <div class="one row-one" id="one">
+        <div class="col-one row-one" id="one">
 
             <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
 
@@ -25,7 +25,7 @@
 
         </div>
 
-        <div class="two row-one" id="two">
+        <div class="col-two row-one" id="two">
 
             <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
 
@@ -37,9 +37,9 @@
 
         </div>
 
-        <div class="three row-one" id="three">
+        <div class="col-three row-one" id="three">
 
-            <a href="https://www.projects.samhaiden.com/reaction-test.php">
+            <a href="https://www.projects.samhaiden.com/projects/reaction-test/reaction-test.php">
 
                 <i class="fa fa-flash"></i>
 
@@ -49,9 +49,9 @@
 
         </div>
 
-        <div class="four one row-two" id="four">
+        <div class="col-one row-two" id="four">
 
-            <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
+            <a href="https://www.projects.samhaiden.com/projects/guessing-game/guessing-game.php">
 
                 <i class="fa fa-question-circle-o"></i>
 
@@ -61,32 +61,32 @@
 
         </div>
 
-        <div class="two row-two" id="five">
+        <div class="col-two row-two" id="five">
 
             <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
 
                 <i class="fa fa-book"></i>
 
-                <h2 class="title">Diary</h2>
+                <h2 class="title">Notes</h2>
 
             </a>
 
         </div>
 
-        <div class="three row-two" id="six">
+        <div class="col-three row-two" id="six">
 
             <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
 
                 <i class="fa fa-sticky-note-o"></i>
 
-                <h2 class="title">Kanban Board</h2>
+                <h2 class="title">Kanban</h2>
 
             </a>
 
-        </div>
+        </div>    
 
     </div>
-
+    
 </body>
 
 </html>
