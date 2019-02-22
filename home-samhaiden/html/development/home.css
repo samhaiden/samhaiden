@@ -233,7 +233,7 @@ border-spacing: 0;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1, minmax(0px, auto)); 
         border-top: 10px solid aqua;
-        border-bottom: 10px solid grey;
+        border-bottom: 10px solid aqua;
     }
     
     .section-title {
@@ -278,7 +278,8 @@ border-spacing: 0;
         grid-template-rows: repeat(3, minmax(0px, auto));
         padding: 4em;
         text-align: center;
-        border-bottom: 10px solid aqua;
+        //border-bottom: 10px solid aqua;
+        background-color: #f6f6f6;
     }
     
     .projects-title {
