@@ -231,7 +231,7 @@ border-spacing: 0;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(1, minmax(0px, auto)); 
+        grid-template-rows: repeat(1, minmax(300px, auto)); 
         border-top: 10px solid aqua;
         border-bottom: 10px solid aqua;
     }
@@ -258,13 +258,13 @@ border-spacing: 0;
         line-height: 1.45;
         text-align: left;
         grid-column: 1/4;
-        grid-row: 2/3;
+        grid-row: 1/2;
     }
     
     .about-image {
         grid-column: 4/6;
-        grid-row: 2/3;
-        background-image: url(images/profile.jpg);
+        grid-row: 1/2;
+        background-image: url(images/profilev2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -278,7 +278,6 @@ border-spacing: 0;
         grid-template-rows: repeat(3, minmax(0px, auto));
         padding: 4em;
         text-align: center;
-        //border-bottom: 10px solid aqua;
         background-color: #f6f6f6;
     }
     
@@ -286,5 +285,56 @@ border-spacing: 0;
         grid-column: 1/6;
         grid-row: 1/2;
         text-align: left;
-
-}
+    }
+    
+    .contact-form {
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin: 5 0 30 0;
+    }
+    
+    .form-name, .form-email, .form-subject, .form-message {
+        height: 50px;
+        width: 80vw;
+        font-size: 22px;
+        font-family: raleway;
+        color: darkgrey;
+        padding-left: 5px;
+        background-color: white;
+    }
+    
+    .form-message {
+        height: 200px;
+        resize: none;
+    }
+    
+    .btn-submit {
+        width: 200px;
+        font-size: 18px;
+        height: 50px;
+        
+    }
+    
+    .btn-submit:hover {
+        background-color: aqua;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    /*input[type="submit"] {
+        background-color: white;
+        width: 200px;
+        border-radius: 5px;
+        font-size: 18px;
+        height: 50px;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: aqua;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }*/
+    
+    
