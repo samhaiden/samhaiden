@@ -31,7 +31,7 @@
         
         <script type="text/javascript" src="script/script.js"></script>
     
-    <!-- <?php include("include/header.php");?> -->
+    <!-- include/header.php");?> -->
 
 </head>
 
