@@ -1,20 +1,18 @@
-$("#top-menu").load( "header.html" );
-
-$(document).ready(function () {
+$(document).ready(function() {
     
     $(".cross").hide();
 
     $(".menu").hide();
         
-        $(".hamburger").click(function () {
+    $(".hamburger").click(function() {
             
-            $(".wrapper-main").animate({"margin-top": "250px"}, "slow");
+        $(".wrapper-main").animate({"margin-top": "250px"}, "slow");
+        
+        $(".menu").slideToggle("slow", function () {
 
-            $(".menu").slideToggle("slow", function () {
+        $(".hamburger").hide();
 
-            $(".hamburger").hide();
-
-            $(".cross").show();
+        $(".cross").show();
                            
     });     
             
@@ -23,8 +21,6 @@ $(document).ready(function () {
 
 $(".cross").click(function() {
     
-    $(".wrapper-main").animate({"margin-top": "35px"}, "slow");
-
     $(".menu").slideToggle( "slow", function() {
         
         $(".cross").hide();
@@ -35,5 +31,27 @@ $(".cross").click(function() {
     
 });
 
-})
 
+
+$("li").click(function() {  
+    
+            $(".menu").slideToggle( "slow", function() {
+
+            $(".cross").hide();
+
+            $(".hamburger").show();
+                
+        });
+    
+    });
+
+})
+    
+    //e.preventDefault();
+    
+    //var targetClass = $(this).attr("href");
+    
+    //var top = $(targetClass).offset().top;
+    
+    //$('html, body').stop().animate({scrollTop: top }, 300);
+    
