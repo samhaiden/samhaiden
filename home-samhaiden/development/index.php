@@ -9,13 +9,13 @@
        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="css/home.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 850px)" href="css/home.css" />
         
         <link rel="icon" href="https://images.vexels.com/media/users/3/127441/isolated/preview/5f6f46b8b73de6bf5fcf7a0eeaa6b324-christmas-trees-square-icon-by-vexels.png" type="image/gif" sizes="16x16">
         
         <!-- <link rel="icon" href="http://www.logospng.com/images/128/s-bahn-salzburgsvg-wikimedia-commons-128460.png" type="image/gif" sizes="16x16"> -->
 
-        <link rel="stylesheet" type="text/css" media="screen and (max-width: 749px)" href="css/home-mobile.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 849px)" href="css/home-mobile.css" />
 
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
@@ -26,11 +26,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            
+        <script src="script/script.js" type="text/javascript"></script>
 
-        <script type="text/javascript" src="script/mobile-menu.js"></script>
-        
-        <script type="text/javascript" src="script/script.js"></script>
-    
+            
     <!-- <?php include("include/header.php");?> -->
 
 </head>
@@ -39,7 +38,7 @@
 
     <!-- include the following in menu.php -->
     
-    <a name="home" class="anchor-offset"></a>
+    <a name="home" id="home" class="anchor-offset"></a>
     
     <a class="top-scroll" href="#home">^</a>
     
@@ -83,7 +82,7 @@
     </div>
 
         <section id="hero">
-                          
+                                                   
             <div id="inner-hero">
                            
                 <h1 class="main-header">Welcome</h1>
@@ -100,7 +99,7 @@
 
                     <div class="about-title section-title">
                         
-                        <a name="about" class="anchor-offset"></a>
+                        <a id="about" name="about" class="anchor-offset"></a>
                        
                         <h1>About</h1>
 
@@ -121,7 +120,7 @@
         
             <div class="projects-title section-title">
 
-                            <a name="projects" class="anchor-offset"></a>
+                            <a name="projects" id="projects" class="anchor-offset"></a>
 
                             <h1>Projects</h1>
 
@@ -207,7 +206,7 @@
 
                     <div class="contact-title section-title">
                         
-                        <a name="contact" class="anchor-offset"></a>
+                        <a name="contact" id="contact" class="anchor-offset"></a>
                        
                         <h1>Contact</h1>
 
@@ -293,6 +292,14 @@
         
     </section>
 
+        <!-- <script> if (screen && screen.width <= 749) { 
+                document.write('<script type="text/javascript" src="script/mobile-menu.js">\/script>');
+        } else if (screen && screen.width >= 749) {
+                document.write('<script type="text/javascript" src="script/script.js">\/script>'); 
+        }
+            
+        </script> -->
+        
 </body>
 
 </html>
