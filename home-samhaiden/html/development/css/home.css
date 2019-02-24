@@ -253,7 +253,7 @@ border-spacing: 0;
         position: relative;
     }
     
-    .about-text {
+    .section-text {
         padding: 4em;
         line-height: 1.45;
         text-align: left;
@@ -264,7 +264,7 @@ border-spacing: 0;
     .about-image {
         grid-column: 4/6;
         grid-row: 1/2;
-        background-image: url(images/profilev2.jpg);
+        background-image: url(../images/profilev2.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -299,7 +299,7 @@ border-spacing: 0;
         font-size: 22px;
         font-family: raleway;
         color: darkgrey;
-        padding-left: 5px;
+        padding-left: 10px;
         background-color: white;
     }
     
@@ -320,6 +320,39 @@ border-spacing: 0;
         color: white;
         border: none;
         cursor: pointer;
+    }
+    
+    .success-message {
+        display: none;
+        background-color: lightgreen;
+        padding: 1em;
+        color: darkgreen;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .failure-message {
+        display: none;
+        background-color: lightcoral;
+        padding: 1em;
+        color: black;
+        border-radius: 5px;
+        margin-bottom: 20px;   
+    }
+    
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 30px;
+        line-height: 1em;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .closebtn:hover {
+        color: black;
     }
     
     /*input[type="submit"] {
