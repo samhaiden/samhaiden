@@ -3,16 +3,19 @@
 <head>
     
     <title>Sam Haiden</title>
-
+    
+    
+    <!-- include following in header.php -->
+       
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="css/home.css" />
-
-        <link rel="stylesheet" type="text/css" media="screen and (max-width: 749px)" href="css/home-mobile.css" />
         
         <link rel="icon" href="https://images.vexels.com/media/users/3/127441/isolated/preview/5f6f46b8b73de6bf5fcf7a0eeaa6b324-christmas-trees-square-icon-by-vexels.png" type="image/gif" sizes="16x16">
         
         <!-- <link rel="icon" href="http://www.logospng.com/images/128/s-bahn-salzburgsvg-wikimedia-commons-128460.png" type="image/gif" sizes="16x16"> -->
+
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 749px)" href="css/home-mobile.css" />
 
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
@@ -28,13 +31,13 @@
         
         <script type="text/javascript" src="script/script.js"></script>
     
-    <!-- <?php include("include/header.php");?> -->
+    <!-- include/header.php");?> -->
 
 </head>
 
 <body>
 
-    <!-- <?php include("include/menu.php");?> -->
+    <!-- include the following in menu.php -->
     
     <a name="home" class="anchor-offset"></a>
     
@@ -74,7 +77,9 @@
             </ul>
     
     </nav>
-        
+     
+    <!-- <?php include("include/menu.php");?> -->
+     
     </div>
 
         <section id="hero">
@@ -285,8 +290,6 @@
                     <br>
                     <br>
                 </div>
-                
-                <?php // include("include/contact-form.php");?>
         
     </section>
 
