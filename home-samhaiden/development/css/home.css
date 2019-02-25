@@ -310,7 +310,7 @@ border-spacing: 0;
         width: 200px;
         font-size: 18px;
         height: 50px;
-        
+        background-color: white;
     }
     
     .btn-submit:hover {
