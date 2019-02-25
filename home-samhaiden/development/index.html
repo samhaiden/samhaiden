@@ -280,25 +280,25 @@
                     
                     </div>
                     
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
                 </div>
         
     </section>
 
-        <!-- <script> if (screen && screen.width <= 749) { 
-                document.write('<script type="text/javascript" src="script/mobile-menu.js">\/script>');
-        } else if (screen && screen.width >= 749) {
-                document.write('<script type="text/javascript" src="script/script.js">\/script>'); 
-        }
+    <footer class="footer">
+        
+        <div class="footer-text">
+        
+            <p class="footer">Copyright Sam Haiden, 2019. All rights reserved.</p>
             
-        </script> -->
+        </div>
+        
+            <div class="footer-icon">
+
+            <i class="fa fa-bicycle"></i>
+        
+        </div>
+        
+    </footer>
         
 </body>
 
