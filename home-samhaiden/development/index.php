@@ -38,9 +38,9 @@
 
     <!-- include the following in menu.php -->
     
-    <a name="home" id="home" class="anchor-offset"></a>
+    <a name="top" id="top" class="anchor-offset"></a>
     
-    <a class="top-scroll" href="#home">^</a>
+    <a class="top-scroll" href="#top">^</a>
     
     <div class="menu-wrapper">
         
@@ -62,7 +62,7 @@
            
            <ul class="main-menu">
             
-            <li><a class="menu-link" href="#home">Home</a></li>
+            <li><a class="menu-link" href="index.php#top">Home</a></li>
         
 
             <li><a class="menu-link" href="#about">About</a></li>
@@ -128,7 +128,7 @@
         
         <div class="col-one row-one" id="one">
 
-            <a href="https://www.samhaiden.com/travel">
+            <a href="https://www.samhaiden.com/travel.php">
 
                 <i class="fa fa-sun-o"></i>
 

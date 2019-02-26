@@ -37,10 +37,10 @@
 <body>
 
     <!-- include the following in menu.php -->
+        
+    <a class="top-scroll" href="#top">^</a>
     
-    <a name="home" id="home" class="anchor-offset"></a>
-    
-    <a class="top-scroll" href="#home">^</a>
+    <a name="top" id="top" class="anchor-offset"></a>
     
     <div class="menu-wrapper">
         
@@ -62,16 +62,16 @@
            
            <ul class="main-menu">
             
-            <li><a class="menu-link" href="#home">Home</a></li>
+            <li><a class="menu-link" href="index.php#top">Home</a></li>
         
 
-            <li><a class="menu-link" href="#about">About</a></li>
+            <li><a class="menu-link" href="index.php#about">About</a></li>
     
 
-            <li><a class="menu-link" href="#projects">Projects</a></li>
+            <li><a class="menu-link" href="index.php#projects">Projects</a></li>
         
 
-            <li><a class="menu-link" href="#contact">Contact</a></li>
+            <li><a class="menu-link" href="index.php#contact">Contact</a></li>
             
             </ul>
     
@@ -119,8 +119,18 @@
                 
                 <div class="image-holder image-7 portrait"></div> 
                 
-                <div class="image-holder image-8 landscape"></div> 
-            
+                <div class="image-holder image-8 landscape"></div>
+                
+                <div class="image-holder image-9 portrait"></div> 
+                
+                <div class="image-holder image-10 landscape"></div> 
+                
+                <div class="image-holder image-11 portrait"></div> 
+                
+                <div class="image-holder image-12 portrait"></div> 
+                
+                <div class="image-holder image-13 portrait"></div> 
+                                            
             </div>
             
         </section>
