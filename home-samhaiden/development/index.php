@@ -128,7 +128,7 @@
         
         <div class="col-one row-one" id="one">
 
-            <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
+            <a href="https://www.samhaiden.com/travel">
 
                 <i class="fa fa-sun-o"></i>
 
@@ -140,7 +140,7 @@
 
         <div class="col-two row-one" id="two">
 
-            <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
+            <a href="https://www.samhaiden.com/resume.php">
 
                 <i class="fa fa-file-text-o"></i>
 
@@ -152,7 +152,7 @@
 
         <div class="col-three row-one" id="three">
 
-            <a href="https://www.projects.samhaiden.com/reaction-test.php">
+            <a href="https://www.samhaiden.com/photo.php">
 
                 <i class="fa fa-flash"></i>
 
@@ -164,7 +164,7 @@
 
         <div class="col-one row-two" id="four">
 
-            <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
+            <a href="https://www.samhaiden.com/code.php">
 
                 <i class="fa fa-code"></i>
 
@@ -176,7 +176,7 @@
 
         <div class="col-two row-two" id="five">
 
-            <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
+            <a href="https://www.samhaiden.com/notes.php">
 
                 <i class="fa fa-book"></i>
 
@@ -188,7 +188,7 @@
 
         <div class="col-three row-two" id="six">
 
-            <a href="https://www.projects.samhaiden.com/Projects/PHP/weather-scraper.php">
+            <a href="https://www.samhaiden.com/kanban.php">
 
                 <i class="fa fa-copy"></i>
 
