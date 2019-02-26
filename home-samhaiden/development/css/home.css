@@ -442,6 +442,27 @@ border-spacing: 0;
         background-image: url('https://media.wired.com/photos/5926538eaf95806129f4f0b6/master/pass/UnsplashHP.jpg');
     }
     
+    .image-9 {
+        background-image: url('https://images.unsplash.com/photo-1496060169243-453fde45943b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    }
+    
+    .image-10 {
+        background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    }
+    
+    .image-11 {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-yhARtHOZcgI5CKaQ8-9fMpuVpgJzcp3QNPYWJlgVkvJxfL8JA');
+    }
+    
+    .image-12 {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLnPiMfjMPk6zTkM_Jp7UPTqRNu9R_Kh_88s1lyrUUOV69gbAGzg');
+    }
+    
+    .image-13 {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRubzhGWfdH5gCuVdmvqNhXplvd33QJNOwCiybzctevLpDGTkVJ');
+    }
+   
+
     /*input[type="submit"] {
         background-color: white;
         width: 200px;

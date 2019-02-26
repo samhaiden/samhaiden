@@ -39,8 +39,6 @@ if ($(window).width() <= 849) {
     
         if (this.hash !== "") {
 
-        event.preventDefault();
-
       var hash = this.hash;
             
       $('html, body').animate({
@@ -52,6 +50,8 @@ if ($(window).width() <= 849) {
         window.location.hash = hash;
           
       });
+            
+            return false;
             
     } 
     
@@ -72,8 +72,6 @@ if ($(window).width() <= 849) {
     
         if (this.hash !== "") {
 
-        event.preventDefault();
-
       var hash = this.hash;
             
       $('html, body').animate({
@@ -85,7 +83,9 @@ if ($(window).width() <= 849) {
         window.location.hash = hash;
           
       });
-                              
+       
+            return false;
+            
     }
     
 }); 
