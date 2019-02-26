@@ -377,6 +377,71 @@ border-spacing: 0;
         font-size: 35px !important;
     }
     
+    .photo {
+        padding: 4em;
+    }
+    
+    .photo-title {
+        grid-column: 1/6;
+        grid-row: 1/2;
+        text-align: left;
+    }
+    
+    #gallery-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 10px;
+        grid-auto-rows: minmax(500px, auto);
+        grid-auto-flow: dense;
+        padding: 10px;
+    }
+    
+    .image-holder {
+        background-image: url(../images/profilev2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        z-index: -2;
+    }
+    
+    .landscape {
+        grid-column-end: span 2;
+        grid-row-end: span 1;
+    }
+    
+    .image-1 {
+        background-image: url('https://images.unsplash.com/photo-1533736970669-7edc3f971be1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+    }
+    
+    .image-2 {
+        background-image: url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    }
+    
+    .image-3 {
+        background-image: url('https://images.unsplash.com/photo-1519834785169-98be25ec3f84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    }
+    
+    .image-4 {
+        background-image: url('https://images.unsplash.com/photo-1505904645664-def2335fb0d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    }
+    
+    .image-5 {
+        background-image: url('https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg?image_crop_resized=1280x720');
+    }
+    
+    .image-6 {
+        background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&w=1000&q=80');
+    }
+    
+    .image-7 {
+        background-image: url('https://images.unsplash.com/photo-1526071904038-18bc29e6df91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    }
+    
+    .image-8 {
+        background-image: url('https://media.wired.com/photos/5926538eaf95806129f4f0b6/master/pass/UnsplashHP.jpg');
+    }
+    
     /*input[type="submit"] {
         background-color: white;
         width: 200px;
@@ -391,5 +456,3 @@ border-spacing: 0;
         border: none;
         cursor: pointer;
     }*/
-    
-    
