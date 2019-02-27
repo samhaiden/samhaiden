@@ -51,7 +51,7 @@ if ($(window).width() <= 849) {
           
       });
             
-            return false;
+            
             
     } 
     
@@ -63,6 +63,8 @@ if ($(window).width() <= 849) {
                 
                 
         });
+        
+        return false;
     
     });
     
@@ -136,11 +138,7 @@ $(".btn-learnmore").click(function() {
     
     });
     
-    $(".image-2").click(function() {
-        
-        alert("hello");
-                
-    });
+
     
 $(document).scroll(function() {
 
@@ -160,6 +158,15 @@ $(document).scroll(function() {
     
 
     
+    
+/*$(".image-holder").click(function() {
+    
+    var dumb = $(this).attr("class");
+        
+    alert(dumb);
+    
+});*/
+ 
 
 /*end document ready */
     
