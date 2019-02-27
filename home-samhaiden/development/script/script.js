@@ -136,6 +136,12 @@ $(".btn-learnmore").click(function() {
     
     });
     
+    $(".image-2").click(function() {
+        
+        alert("hello");
+                
+    });
+    
 $(document).scroll(function() {
 
     var y = $(this).scrollTop();
@@ -151,6 +157,11 @@ $(document).scroll(function() {
             }
 
     });
+    
+
+    
+
+/*end document ready */
     
 });
 

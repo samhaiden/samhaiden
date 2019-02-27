@@ -397,7 +397,6 @@ border-spacing: 0;
     }
     
     .image-holder {
-        background-image: url(../images/profilev2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
