@@ -223,7 +223,7 @@ border-spacing: 0;
         margin-left: 3em;
     }
     
-    .fa {
+    .fas, .far {
         font-size: 40px !important;
     }
     
