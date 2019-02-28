@@ -28,7 +28,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             
         <script src="script/script.js" type="text/javascript"></script>
-
             
     <!-- <?php include("include/header.php");?> -->
 
@@ -39,6 +38,8 @@
     <!-- include the following in menu.php -->
     
     <a name="top" id="top" class="anchor-offset"></a>
+    
+    <a name="home" id="home"></a>
     
     <a class="top-scroll" href="#top">^</a>
     
