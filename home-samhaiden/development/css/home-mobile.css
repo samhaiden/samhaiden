@@ -88,6 +88,7 @@ border-spacing: 0;
         padding-left: 17;
         border-radius: 15%;
         margin-bottom: -15;
+        z-index: 1;
     }
     
     .top-scroll:hover {
@@ -437,7 +438,6 @@ border-spacing: 0;
         background-repeat: no-repeat;
         background-position: center center;
         position: relative;
-        z-index: -2;
     }
     
     .portrait {

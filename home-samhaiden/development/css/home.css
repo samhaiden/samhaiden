@@ -89,6 +89,7 @@ border-spacing: 0;
         padding-left: 17;
         border-radius: 15%;
         margin-bottom: -15;
+        z-index: 1;
     }
     
     .top-scroll:hover {

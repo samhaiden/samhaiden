@@ -29,6 +29,10 @@
 
         <script src="script/script.js" type="text/javascript"></script>
     
+        <link href="plugin/lightbox/css/lightbox.min.css" rel="stylesheet">
+    
+        <script src="plugin/lightbox/js/lightbox.js"></script>
+    
     <!-- <?php include("include/header.php");?> -->
 
 </head>
@@ -104,31 +108,31 @@
             
             <div id="gallery-container">
                   
-                <a class="swipebox image-holder image-1 portrait" href="https://images.unsplash.com/photo-1533736970669-7edc3f971be1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"><div></div></a>
+                <a data-lightbox="gallery" class="swipebox image-holder image-1 portrait" href="https://images.unsplash.com/photo-1533736970669-7edc3f971be1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"><div></div></a>
                 
-                <a class="swipebox image-holder image-2 landscape" href="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"><div></div></a>
+                <a data-lightbox="gallery" class="swipebox image-holder image-2 landscape" href="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"><div></div></a>
                 
-                <a class="swipebox image-holder image-3 portrait" href="https://images.unsplash.com/photo-1519834785169-98be25ec3f84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"><div></div></a>
+                <a data-lightbox="gallery" class="image-holder image-3 portrait" href="https://images.unsplash.com/photo-1519834785169-98be25ec3f84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"><div></div></a>
                 
-                <a class="image-holder image-4 landscape"><div></div></a> 
+                <a data-lightbox="gallery" href="https://images.unsplash.com/photo-1505904645664-def2335fb0d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="image-holder image-4 landscape"><div></div></a> 
                 
-                <a class="image-holder image-5 landscape"><div></div></a>
+                <a data-lightbox="gallery" href="https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg?image_crop_resized=1280x720" class="image-holder image-5 landscape"><div></div></a>
                 
-                <a class="image-holder image-6 portrait"><div></div></a>
+                <a data-lightbox="gallery" href="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&w=1000&q=80" class="image-holder image-6 portrait"><div></div></a>
                 
-                <a class="image-holder image-7 portrait"><div></div></a>
+                <a data-lightbox="gallery" href="https://images.unsplash.com/photo-1526071904038-18bc29e6df91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="image-holder image-7 portrait"><div></div></a>
                 
-                <a class="image-holder image-8 landscape"><div></div></a>
+                <a data-lightbox="gallery" href="https://media.wired.com/photos/5926538eaf95806129f4f0b6/master/pass/UnsplashHP.jpg" class="image-holder image-8 landscape"><div></div></a>
                 
-                <a class="image-holder image-9 portrait"><div></div></a> 
+                <a data-lightbox="gallery" href="https://images.unsplash.com/photo-1496060169243-453fde45943b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="image-holder image-9 portrait"><div></div></a> 
                 
-                <a class="image-holder image-10 landscape"><div></div></a> 
+                <a data-lightbox="gallery" href="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="image-holder image-10 landscape"><div></div></a> 
                 
-                <a class="image-holder image-11 portrait"><div></div></a> 
+                <a data-lightbox="gallery" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-yhARtHOZcgI5CKaQ8-9fMpuVpgJzcp3QNPYWJlgVkvJxfL8JA" class="image-holder image-11 portrait"><div></div></a> 
                 
-                <a class="image-holder image-12 portrait"><div></div></a> 
+                <a data-lightbox="gallery" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLnPiMfjMPk6zTkM_Jp7UPTqRNu9R_Kh_88s1lyrUUOV69gbAGzg" class="image-holder image-12 portrait"><div></div></a> 
                 
-                <a class="image-holder image-13 portrait"><div></div></a> 
+                <a data-lightbox="gallery" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRubzhGWfdH5gCuVdmvqNhXplvd33QJNOwCiybzctevLpDGTkVJ" class="image-holder image-13 portrait"><div></div></a> 
                                             
             </div>
             

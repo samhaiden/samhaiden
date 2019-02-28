@@ -156,16 +156,14 @@ $(document).scroll(function() {
 
     });
     
-
+lightbox.option ({
     
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'alwaysShowNavOnTouchDevices': true,
+      'albumLabel': ""
     
-/*$(".image-holder").click(function() {
-    
-    var dumb = $(this).attr("class");
-        
-    alert(dumb);
-    
-});*/
+    });
  
 
 /*end document ready */
