@@ -260,7 +260,7 @@ border-spacing: 0;
     }
 
     
-    .fa {
+    .fas, .far {
         font-size: 40px !important;
     }
     
