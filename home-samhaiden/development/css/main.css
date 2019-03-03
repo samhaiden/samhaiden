@@ -939,11 +939,11 @@ border-spacing: 0;
         line-height: 1.45;
         text-align: left;
         grid-column: 1/5;
-        font-size: 22px;
+        font-size: 20px;
     }
     
     .add-padding {
-        padding: 40 0 0 0 !important;
+        padding: 20 0 0 0 !important;
     }
      
     .company-1-text {
