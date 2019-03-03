@@ -892,7 +892,7 @@ border-spacing: 0;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(4, minmax(100px, auto)); 
+        grid-auto-rows: minmax(100px, auto); 
         border-top: 10px solid aqua;
         border-bottom: 10px solid aqua;
         grid-gap: 25px;
@@ -904,7 +904,6 @@ border-spacing: 0;
         grid-row: 5;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(1, minmax(0px, auto));
     }
     
     .btn-download {
@@ -914,11 +913,12 @@ border-spacing: 0;
         border: 2px solid black;
         color: black;
         text-align: center;
+        padding-top: 1.4em;
     }
     
     .resume-title {
         grid-column: 1/5;
-        grid-row: 1/2;
+        grid-row: 1;
         font-size: 40px;
         padding-bottom: 30px;
         margin: 20px 0 20px 0;
@@ -930,44 +930,56 @@ border-spacing: 0;
     
     .position-title {
         font-size: 30px;
-        padding-bottom: 30px;
-        margin: 0 0 20px 0;
+        padding-bottom: 30;
+        margin: 0 0 20 0;
+    }
+    
+    .position-details {
+        margin 0 0 0 25;
+        line-height: 1.45;
+        text-align: left;
+        grid-column: 1/5;
+        font-size: 22px;
+    }
+    
+    .add-padding {
+        padding: 40 0 0 0 !important;
     }
      
     .company-1-text {
         line-height: 1.45;
         text-align: left;
         grid-column: 1/5;
-        grid-row: 2/3;
+        grid-row: 2;
     }
     
     .company-1 {
         grid-column: 6;
-        grid-row: 2/3;
+        grid-row: 2;
     }
     
     .company-2-text {
         line-height: 1.45;
         text-align: left;
         grid-column: 1/5;
-        grid-row: 3/4;
+        grid-row: 3;
     }
     
     .company-2 {
         grid-column: 6;
-        grid-row: 3/4;
+        grid-row: 3;
     }
     
     .company-3-text {
         line-height: 1.45;
         text-align: left;
         grid-column: 1/5;
-        grid-row: 4/5;
+        grid-row: 4;
     }
     
     .company-3 {
         grid-column: 6;
-        grid-row: 4/5;
+        grid-row: 4;
     }
     
     .company-image {
@@ -996,7 +1008,7 @@ border-spacing: 0;
         grid-row: 8;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(1, minmax(0px, auto));
+        grid-auto-rows: minmax(0px, auto);
     }
     
     .btn-download {
@@ -1018,6 +1030,10 @@ border-spacing: 0;
     .position-title {
         font-size: 30px;
         padding: 0px 0 20px 0;
+    }
+    
+    .add-padding {
+        padding: 20 0 0 0 !important;
     }
     
     .company-image {
