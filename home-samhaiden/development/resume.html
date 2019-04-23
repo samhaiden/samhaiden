@@ -57,7 +57,7 @@
            
            <ul class="main-menu">
             
-            <li><a class="menu-link" href="index.php#top">Home</a></li>
+            <li><a class="menu-link" href="index.php#home">Home</a></li>
         
 
             <li><a class="menu-link" href="index.php#about">About</a></li>
