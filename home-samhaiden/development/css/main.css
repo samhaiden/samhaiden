@@ -60,7 +60,7 @@ border-spacing: 0;
         letter-spacing: 2px;
     }
 
-    .fas, .far {
+    .fas, .far, .fab {
         font-size: 40px !important;
     }
 
@@ -97,11 +97,6 @@ border-spacing: 0;
 
 /* Top-scroll general styling */
 
-.top-scroll:hover {
-        background-color: grey;
-        color: white; 
-    }
-
 /* Top-scroll desktop */
 
 @media screen and (min-width: 850px) {
@@ -121,6 +116,12 @@ border-spacing: 0;
         border-radius: 15%;
         margin-bottom: -15;
         z-index: 1;
+    }
+    
+    .top-scroll:hover {
+        background-color: aqua;
+        border: 3px solid aqua;
+        color: white; 
     }
 
 }
@@ -144,6 +145,12 @@ border-spacing: 0;
         border-radius: 15%;
         margin-bottom: -15;
         z-index: 1;
+    }
+    
+    .top-scroll:hover {
+        background-color: aqua;
+        border: 2px solid aqua;
+        color: white; 
     }
     
 }
@@ -318,8 +325,9 @@ border-spacing: 0;
     }
     
     a.btn-learnmore:hover {
-        color: grey;
-        background-color: white;
+        color: white;
+        border: 2px solid aqua;
+        background-color: aqua;
     }
     
 }
@@ -487,6 +495,10 @@ border-spacing: 0;
 }
 
 /* Project section general styling */
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover {
+    color: aqua;
+}
 
 /* Project section desktop */
 
@@ -879,8 +891,8 @@ border-spacing: 0;
 
     a.btn-download:hover {
         color: white;
-        background-color: grey;
-        border: 2px solid grey;
+        background-color: aqua;
+        border: 2px solid aqua;
     }
 
 /* Resume section desktop */
@@ -1150,5 +1162,113 @@ border-spacing: 0;
         height: 35;
         
     }
+    
+}
+
+/* Project section general styling */
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover {
+    color: aqua;
+}
+
+/* Project section desktop */
+
+@media screen and (min-width: 850px) {
+    
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, minmax(0px, auto));
+        padding: 4em;
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    .projects-title {
+        grid-column: 1/6;
+        grid-row: 1/2;
+        text-align: left;
+    }
+    
+    .row-one {
+        grid-row: 2/3;
+        margin-top: 3em;
+    }
+    
+    .row-two {
+        grid-row: 3/4;
+        margin-top: 2em;
+    }
+    
+    .row-three {
+        grid-row: 4/5;
+    }
+    
+    .col-one {
+        grid-column: 2/3;
+        margin-right: 3em; 
+    }
+
+    .col-two {
+        grid-column: 3/4;
+    }
+
+    .col-three {
+        grid-column: 4/5;
+        margin-left: 3em;
+    }
+    
+}
+
+/* Project section mobile */
+
+@media screen and (max-width: 849px) {
+    
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, minmax(0px, auto));
+        padding: 2em;
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    .projects-title {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: left;
+    }
+    
+    #one {
+        grid-row: 2/3;
+        grid-column: 0/1;
+        margin-top: 1em;
+    }
+    
+    #two {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        margin-top: 1em;
+    }
+    
+    #three {
+        grid-row: 3/4;
+        grid-column: 0/1;
+    }
+    
+    #four {
+        grid-row: 3/4;
+        grid-column: 1/2;   
+    }
+    
+    #five {
+        grid-row: 4/5;
+        grid-column: 0/1;
+    }
+    
+    #six {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }  
     
 }
