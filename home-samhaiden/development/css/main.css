@@ -945,6 +945,10 @@ border-spacing: 0;
     .add-padding {
         padding: 20 0 0 0 !important;
     }
+    
+    .add-margin {
+        margin: 20 0 0 0 !important;
+    }
      
     .company-1-text {
         line-height: 1.45;
@@ -1078,6 +1082,10 @@ border-spacing: 0;
     .company-image {
         background-position: left;
     }
+    
+    .sk-2, .sk-3, .sk-4 {
+        display: none;
+    }
      
     .company-1-text {
         line-height: 1.45;
@@ -1129,7 +1137,7 @@ border-spacing: 0;
     
     .rlt-1 {
         grid-column: 1;
-        grid-row: 13; 
+        grid-row: 10; 
         padding-top: 50;
         height: 30;
         margin-top: 45;
@@ -1148,6 +1156,7 @@ border-spacing: 0;
         grid-row: 2;
         margin-top: 25;
         height: 35;
+        margin-bottom: 20px;
         
     }
     
