@@ -60,10 +60,6 @@ border-spacing: 0;
         letter-spacing: 2px;
     }
 
-    .fas, .far, .fab {
-        font-size: 40px !important;
-    }
-
 /* Body desktop */ 
 
 @media screen and (min-width: 850px) {
@@ -498,7 +494,12 @@ border-spacing: 0;
 
 #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover {
     background-color: aqua;
+    border: 1px solid white;
+}
+
+a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover {
     color: white;
+    
 }
 
 .projects {
@@ -534,6 +535,10 @@ border-spacing: 0;
         height: 250px;
         width: 250px;
         flex-direction: column;
+    }
+    
+    .fas, .far, .fab {
+        font-size: 35px !important;
     }
     
     .title {
@@ -603,8 +608,8 @@ border-spacing: 0;
         flex-direction: column;
     }
     
-    .title, .fas {
-        font-size: 15px;
+    .title, .fas, .far, .fab {
+        font-size: 20px !important;
         margin: 0;
         line-height: 35px;
     }
