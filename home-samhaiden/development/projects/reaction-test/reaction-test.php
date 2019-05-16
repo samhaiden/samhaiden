@@ -32,6 +32,6 @@
 
 </body>
 
-<script src="/script/reaction-test.js" type="text/javascript"></script>
+<script src="script/reaction-test.js" type="text/javascript"></script>
 
 </html>
