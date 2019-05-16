@@ -9,28 +9,32 @@
        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" type="text/css" media="screen and (min-width: 850px)" href="css/home.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
         
         <link rel="icon" href="https://images.vexels.com/media/users/3/127441/isolated/preview/5f6f46b8b73de6bf5fcf7a0eeaa6b324-christmas-trees-square-icon-by-vexels.png" type="image/gif" sizes="16x16">
         
-        <!-- <link rel="icon" href="http://www.logospng.com/images/128/s-bahn-salzburgsvg-wikimedia-commons-128460.png" type="image/gif" sizes="16x16"> -->
-
-        <link rel="stylesheet" type="text/css" media="screen and (max-width: 849px)" href="css/home-mobile.css" />
-
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Alegreya+Sans:100|Josefin+Sans:100|Lato:100|Quicksand:300,400|Amatic+SC:400|Raleway:200,300,400" rel="stylesheet">
 
         <link href="https://www.samhaiden.com/wp-content/uploads/2018/09/sicon.png" type="image/png" rel="icon">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="lib/fontawesome-5.7.2-web/css/all.css" />
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="lib/jquery-ui-1.12.1/external/jquery/jquery.js" type="text/javascript"></script>
             
         <script src="script/script.js" type="text/javascript"></script>
-            
-    <!-- <?php include("include/header.php");?> -->
+        
+    <!-- <link rel="icon" href="http://www.logospng.com/images/128/s-bahn-salzburgsvg-wikimedia-commons-128460.png" type="image/gif" sizes="16x16"> -->
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    
+    <!-- <link rel="stylesheet" type="text/css" media="screen and (max-width: 849px)" href="css/home-mobile.css" /> -->
 
+    <!-- <?php include("include/header.php");?> -->
+    
 </head>
 
 <body>
@@ -106,7 +110,13 @@
 
                     </div>
 
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <p>Above all I love to learn and build. From an early age I have been facinated with the outdoors, photography, and all things creative - and those passions still remain intact today.
+                    </p>
+                    <br>
+                    <p>Over the years, my skills have increased to include graphic design, web development, and everything it takes to get a business from concept to success. 
+                    </p>
+                    <br>
+                    <p>I have rarely been able to put myself into a box and believe that is my strongest trait. If I don't know it, I will learn it; if it doesn't exist, I will try to build it; if I am told something, I will test it; and I always strive to see things in both detail and in context.
                     </p>
 
                 </div>
@@ -129,9 +139,9 @@
         
         <div class="col-one row-one" id="one">
 
-            <a href="https://www.samhaiden.com/travel.php">
+            <a class="one" href="https://www.samhaiden.com/travel.php">
 
-                <i class="fa fa-sun-o"></i>
+                <i class="fas fa-plane-departure"></i>
 
                 <h2 class="title">Travel</h2>
 
@@ -141,9 +151,9 @@
 
         <div class="col-two row-one" id="two">
 
-            <a href="https://www.samhaiden.com/resume.php">
+            <a class="two" href="https://www.samhaiden.com/resume.php">
 
-                <i class="fa fa-file-text-o"></i>
+                <i class="far fa-file-alt"></i>
 
                 <h2 class="title">Resume</h2>
 
@@ -153,9 +163,9 @@
 
         <div class="col-three row-one" id="three">
 
-            <a href="https://www.samhaiden.com/photo.php">
+            <a class="three" href="https://www.samhaiden.com/photo.php">
 
-                <i class="fa fa-flash"></i>
+                <i class="fas fa-bolt"></i>
 
                 <h2 class="title">Photo</h2>
 
@@ -165,9 +175,9 @@
 
         <div class="col-one row-two" id="four">
 
-            <a href="https://www.samhaiden.com/code.php">
+            <a class="four" href="https://www.samhaiden.com/code.php">
 
-                <i class="fa fa-code"></i>
+                <i class="fas fa-code"></i>
 
                 <h2 class="title">Code</h2>
 
@@ -177,9 +187,9 @@
 
         <div class="col-two row-two" id="five">
 
-            <a href="https://www.samhaiden.com/notes.php">
+            <a class="five" href="https://www.samhaiden.com/notes.php">
 
-                <i class="fa fa-book"></i>
+                <i class="fas fa-book"></i>
 
                 <h2 class="title">Notes</h2>
 
@@ -189,9 +199,9 @@
 
         <div class="col-three row-two" id="six">
 
-            <a href="https://www.samhaiden.com/kanban.php">
+            <a class="six" href="https://www.samhaiden.com/kanban.php">
 
-                <i class="fa fa-copy"></i>
+                <i class="far fa-copy"></i>
 
                 <h2 class="title">Kanban</h2>
 

@@ -43,8 +43,6 @@
     
     <a name="top" id="top" class="anchor-offset"></a>
     
-    <a name="home" id="home"></a>
-    
     <a class="top-scroll" href="#top">^</a>
     
     <div class="menu-wrapper">
