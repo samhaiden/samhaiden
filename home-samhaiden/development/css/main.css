@@ -115,8 +115,8 @@ border-spacing: 0;
     }
     
     .top-scroll:hover {
-        background-color: aqua;
-        border: 3px solid aqua;
+        background-color: dodgerblue;
+        border: 3px solid dodgerblue;
         color: white; 
     }
 
@@ -144,8 +144,8 @@ border-spacing: 0;
     }
     
     .top-scroll:hover {
-        background-color: aqua;
-        border: 2px solid aqua;
+        background-color: dodgerblue;
+        border: 2px solid dodgerblue;
         color: white; 
     }
     
@@ -181,7 +181,7 @@ border-spacing: 0;
     }
     
     .menu-link:hover {
-        background-color: aqua;
+        background-color: dodgerblue;
         color: white;
     }
     
@@ -201,6 +201,16 @@ border-spacing: 0;
     
     header {
         display: inline-block;
+    }
+    
+    #login-btn {
+        background-color: dodgerblue;
+        color: white;
+    }
+    
+    #login-btn:hover {
+        background-color: dodgerblue;
+        color: white;
     }
     
 }
@@ -322,8 +332,8 @@ border-spacing: 0;
     
     a.btn-learnmore:hover {
         color: white;
-        border: 2px solid aqua;
-        background-color: aqua;
+        border: 2px solid dodgerblue;
+        background-color: dodgerblue;
     }
     
 }
@@ -440,8 +450,8 @@ border-spacing: 0;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1, minmax(300px, auto)); 
-        border-top: 10px solid aqua;
-        border-bottom: 10px solid aqua;
+        border-top: 10px solid dodgerblue;
+        border-bottom: 10px solid dodgerblue;
     }
     
     .about-title {
@@ -470,8 +480,8 @@ border-spacing: 0;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, minmax(300px, auto)); 
-        border-top: 10px solid aqua;
-        border-bottom: 10px solid aqua;
+        border-top: 10px solid dodgerblue;
+        border-bottom: 10px solid dodgerblue;
     }
     
     .about-title {
@@ -493,7 +503,7 @@ border-spacing: 0;
 /* Project section general styling */
 
 #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover {
-    background-color: aqua;
+    background-color: dodgerblue;
     border: 1px solid white;
 }
 
@@ -673,7 +683,7 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
     }
     
     .btn-submit:hover {
-        background-color: aqua;
+        background-color: dodgerblue;
         color: white;
         border: none;
         cursor: pointer;
@@ -941,8 +951,8 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
 
     a.btn-download:hover {
         color: white;
-        background-color: aqua;
-        border: 2px solid aqua;
+        background-color: dodgerblue;
+        border: 2px solid dodgerblue;
     }
 
 /* Resume section desktop */
@@ -955,8 +965,8 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-auto-rows: minmax(100px, auto); 
-        border-top: 10px solid aqua;
-        border-bottom: 10px solid aqua;
+        border-top: 10px solid dodgerblue;
+        border-bottom: 10px solid dodgerblue;
         grid-gap: 25px;
     }
     
@@ -1102,8 +1112,8 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: minmax(0px, auto); 
-        border-top: 10px solid aqua;
-        border-bottom: 10px solid aqua;
+        border-top: 10px solid dodgerblue;
+        border-bottom: 10px solid dodgerblue;
         grid-gap: 5px;
     }
     
@@ -1223,3 +1233,247 @@ a.one:hover, a.two:hover, a.three:hover, a.four:hover, a.five:hover, a.six:hover
     }
     
 }
+
+/* Login Section Desktop */
+
+@media screen and (min-width: 850px) {
+    
+#login-page {
+background-image: url("../images/login-background.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center; 
+text-align: center;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+}
+
+#homeh1 {
+font-size: 2em;
+color: white;
+margin-bottom: 30px;
+}
+
+#errorMessage {
+  display: none;
+  padding: 15px;
+  background-color: white;
+  color: red;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#logInForm {
+  display: none;
+}
+
+.inputField {
+  margin: 10px;
+  width: 500px;
+  height: 50px;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  width: 250px;
+  height: 60px;
+  font-size: 15px;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: aqua;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.signedIn {
+  color: white;
+}
+
+.inputField1 {
+  margin-left: 15px;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.toggleForm {
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.toggleForm:hover {
+  text-decoration: underline;
+  color: lightblue;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  margin: 25px 0px 45px 0px;
+}
+
+.bottomText {
+  color: white;
+margin: 15px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+#header {
+  height: 60px;
+  background-color: white;
+  width: 100%;
+  margin: 0px;
+}
+
+#loggedinh1 {
+  margin: 0 0;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+#logOutButton,
+#saveButton {
+  -webkit-appearance: none;
+  width: 125px;
+  height: 30px;
+  float: right;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-right: 25px;
+  border-color: lightblue;
+}
+
+#savedMessage {
+  display: none;
+  color: lightblue;
+  text-align: right;
+  margin-right: 20px;
+  width: 125px;
+  height: 30px;
+  float: right;
+  margin-top: 23px;
+  font-size: 15px;
+}
+
+#logOutButton:hover,
+#saveButton:hover {
+  color: white;
+  background-color: lightblue;
+}
+
+#wrapper {
+  height: 1100px;
+  padding: 25px;
+}
+
+#diary {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  resize: none;
+}
+    
+}
+
+/* Login Section Mobile */
+
+@media screen and (max-width: 849px) {
+    
+#login-page {
+background-image: url("../images/login-background.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center; 
+text-align: center;
+}
+    
+p {
+font-size: 22px;
+}
+    
+input[type=submit] {
+  -webkit-appearance: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 300px;
+  height: 80px;
+  font-size: 22px;
+  border: none;
+  background-color: white;
+    
+}
+    
+.toggleForm {
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+}
+
+.toggleForm:hover {
+  text-decoration: underline;
+  color: lightblue;
+  cursor: pointer;
+}
+    
+.text {
+  color: white;
+  font-size: 22px;
+}
+    
+.inputField {
+  margin: 20px;
+  width: 500px;
+  height: 75px;
+  font-size: 22px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+    
+}
+
+
+

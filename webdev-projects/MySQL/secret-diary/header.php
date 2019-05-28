@@ -24,6 +24,72 @@ html {
   background-size: cover;
   height: 100%;
 }
+        
+@media only screen and (max-width: 850px) {
+    
+html {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("bg3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 1000px;
+}
+    
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+    
+    p {
+        font-size: 22px;
+    }
+    
+.submitBtn {
+  -webkit-appearance: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 300px;
+  height: 80px;
+  font-size: 22px;
+  border: none;
+  background-color: white;
+    
+}
+    
+.toggleForm {
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+}
+
+.toggleForm:hover {
+  text-decoration: underline;
+  color: lightblue;
+  cursor: pointer;
+}
+    
+.text {
+  color: white;
+  font-size: 22px;
+}
+    
+.inputField {
+  margin: 20px;
+  width: 500px;
+  height: 75px;
+  font-size: 22px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+}
 
 body {
   margin: 0px;
@@ -103,6 +169,7 @@ margin-top: 400px;
 .toggleForm:hover {
   text-decoration: underline;
   color: lightblue;
+  cursor: pointer;
 }
 
 .text {
