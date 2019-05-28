@@ -11,7 +11,7 @@ if (array_key_exists("logout", $_GET)) {
   $_COOKIE["id"] = "";
   session_destroy();
   $_SESSION = array();
-  header("Refresh:0; url=secret-diary-mysql.php");
+  header("Refresh:0; url=login.php");
 
 } else if ((array_key_exists("id", $_SESSION) AND $_SESSION['id']) OR (array_key_exists("id", $_COOKIE) AND $_COOKIE['id'])) {
 
@@ -130,9 +130,42 @@ if (isset($row)) {
 
 ?>
 
+<head>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        
+        <link rel="icon" href="https://images.vexels.com/media/users/3/127441/isolated/preview/5f6f46b8b73de6bf5fcf7a0eeaa6b324-christmas-trees-square-icon-by-vexels.png" type="image/gif" sizes="16x16">
+        
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Alegreya+Sans:100|Josefin+Sans:100|Lato:100|Quicksand:300,400|Amatic+SC:400|Raleway:200,300,400" rel="stylesheet">
+
+        <link href="https://www.samhaiden.com/wp-content/uploads/2018/09/sicon.png" type="image/png" rel="icon">
+
+        <link rel="stylesheet" href="lib/fontawesome-5.7.2-web/css/all.css" />
+
+        <script src="lib/jquery-ui-1.12.1/external/jquery/jquery.js" type="text/javascript"></script>
+            
+        <script src="script/script.js" type="text/javascript"></script>
+        
+    <!-- <link rel="icon" href="http://www.logospng.com/images/128/s-bahn-salzburgsvg-wikimedia-commons-128460.png" type="image/gif" sizes="16x16"> -->
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
+    <!-- <script src="https://ajax.googleapis.com/ajaxcod/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    
+    <!-- <link rel="stylesheet" type="text/css" media="screen and (max-width: 849px)" href="css/home-mobile.css" /> -->
+
+    <!-- <php include("include/header.php");?> -->
+    
+    
+</head>
+
 <body>
 
-<?php include("header.php"); ?>
+<!-- <php  include("header.php"); ?> -->
 
 <div class="container">
 
@@ -194,4 +227,4 @@ if (isset($row)) {
 
 </body>
 
-<?php include("footer.php"); ?>
+<?php include("include/footer.php"); ?>
