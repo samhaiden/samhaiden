@@ -29,7 +29,7 @@
     
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajaxcod/libs/jquery/3.3.1/jquery.min.js"></script> -->
     
     <!-- <link rel="stylesheet" type="text/css" media="screen and (max-width: 849px)" href="css/home-mobile.css" /> -->
 
@@ -77,6 +77,9 @@
         
 
             <li><a class="menu-link" href="#contact">Contact</a></li>
+              
+               
+            <li><a class="menu-link" id="login-btn" href="login.php">Log In</a></li>
             
             </ul>
     
