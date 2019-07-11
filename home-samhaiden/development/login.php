@@ -130,6 +130,8 @@ if (isset($row)) {
 
 ?>
 
+<html>
+
 <head>
     
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -165,9 +167,59 @@ if (isset($row)) {
 
 <body>
 
-<!-- <php  include("header.php"); ?> -->
+<!-- include the following in menu.php -->
+    
+    <a name="top" id="top" class="anchor-offset"></a>
+    
+    <a name="home" id="home"></a>
+    
+    <a class="top-scroll" href="#top">^</a>
+    
+    <div class="menu-wrapper">
+        
+     <header> 
+        
+         <ul class="logo">
+             
+             <li><a class="menu-link" href="https://www.samhaiden.com">Sam Haiden</a></li>
+             
+         </ul>
 
-<div class="container">
+        <button class="hamburger">&#9776;</button>
+
+        <button class="cross">&#735;</button>
+        
+    </header>
+    
+    <nav class="menu">
+           
+           <ul class="main-menu">
+            
+            <li><a class="menu-link" href="index.php#top">Home</a></li>
+        
+
+            <li><a class="menu-link" href="#about">About</a></li>
+    
+
+            <li><a class="menu-link" href="#projects">Projects</a></li>
+        
+
+            <li><a class="menu-link" href="#contact">Contact</a></li>
+              
+               
+            <li><a class="menu-link" id="login-btn" href="login.php">Log In</a></li>
+            
+            </ul>
+    
+    </nav>
+     
+    <!-- ?php include("include/menu.php");?> -->
+     
+    </div>
+
+<div id="login-page">
+
+<div class="login-container">
 
 <h1 id="homeh1">Your Secret Diary</h1>
 
@@ -188,7 +240,7 @@ if (isset($row)) {
   <input type="hidden" name="signUp" value="1">
 
 
-  <button class="submitBtn" type="submit" name="submit" value="Sign Up!">Sign Up!</button>
+  <input class="submitBtn" type="submit" name="submit" value="Sign Up!">
 
   <br>
 
@@ -213,7 +265,7 @@ if (isset($row)) {
 
   <input type="hidden" name="signUp" value="0">
 
-  <button class="submitBtn" type="submit" name="submit" value="Log In!">Log In!</button>
+  <input class="submitBtn" type="submit" name="submit" value="Log In!">
 
   <br>
 
@@ -225,6 +277,10 @@ if (isset($row)) {
 
 </div>
 
+</div>
+
 </body>
+    
+</html>
 
 <?php include("include/footer.php"); ?>
