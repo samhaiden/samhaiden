@@ -171,8 +171,6 @@ if (isset($row)) {
     
     <a name="top" id="top" class="anchor-offset"></a>
     
-    <a name="home" id="home"></a>
-    
     <a class="top-scroll" href="#top">^</a>
     
     <div class="menu-wrapper">
@@ -195,17 +193,17 @@ if (isset($row)) {
            
            <ul class="main-menu">
             
-            <li><a class="menu-link" href="index.php#top">Home</a></li>
+            <li><a class="menu-link" href="index.php#home">Home</a></li>
         
 
-            <li><a class="menu-link" href="#about">About</a></li>
+            <li><a class="menu-link" href="index.php#about">About</a></li>
     
 
-            <li><a class="menu-link" href="#projects">Projects</a></li>
+            <li><a class="menu-link" href="index.php#projects">Projects</a></li>
         
 
-            <li><a class="menu-link" href="#contact">Contact</a></li>
-              
+            <li><a class="menu-link" href="index.php#contact">Contact</a></li>
+               
                
             <li><a class="menu-link" id="login-btn" href="login.php">Log In</a></li>
             
@@ -213,7 +211,7 @@ if (isset($row)) {
     
     </nav>
      
-    <!-- ?php include("include/menu.php");?> -->
+    <!-- <?php include("include/menu.php");?> -->
      
     </div>
 
