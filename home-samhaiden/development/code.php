@@ -75,6 +75,9 @@
         
 
             <li><a class="menu-link" href="index.php#contact">Contact</a></li>
+               
+               
+            <li><a class="menu-link" id="login-btn" href="login.php">Log In</a></li>
             
             </ul>
     
