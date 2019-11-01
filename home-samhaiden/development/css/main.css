@@ -262,7 +262,7 @@ border-spacing: 0;
         left: 0;
         top: 70;
         text-align:center;
-        height: 200px;
+        height: 245px;
     }
     
     header {
@@ -338,6 +338,7 @@ border-spacing: 0;
         margin-top: 0;
         margin-bottom: .5em;
         font-size: 3em;
+        text-align: center;
     }
     
  #hero {
