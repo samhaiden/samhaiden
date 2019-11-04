@@ -223,7 +223,7 @@ border-spacing: 0;
       font-weight:bold;
       cursor:pointer;
       outline:none;
-      z-index:10000000000000;
+      z-index:100;
     }
 
     .cross {
@@ -240,19 +240,38 @@ border-spacing: 0;
       cursor:pointer;
       outline:none;
       z-index:10000000000000;
-        margin-top: 3px;
+      margin-top: 3px;
     }
 
-    .menu-link {
-        text-decoration: none;
+    .menu-logo {
         position: relative;
         top: 20;
-        padding: 20px 20px 24px 20px;
-        margin-top: 50px;
+        padding: 30px 20px 20px 20px;
     }
 
     .main-menu li {
-        padding: 11px;
+        padding: 15px;
+    }
+    
+    .main-menu li:hover {
+        padding: 15px;
+        background-color: dodgerblue;
+    }
+    
+    .menu-logo:hover {
+        background-color: dodgerblue;
+        color: white;
+        padding: 30px 20px 20px 20px;
+        
+    }
+    
+    .menu-link {
+        padding: 10px 100px;
+    }
+    
+    .menu-link:hover {
+        color: white;
+        
     }
     
     .menu {
@@ -262,7 +281,7 @@ border-spacing: 0;
         left: 0;
         top: 70;
         text-align:center;
-        height: 245px;
+        height: 240px;
     }
     
     header {
@@ -272,6 +291,11 @@ border-spacing: 0;
         line-height:40px;
         display:inline-block; 
     }  
+    
+    li {
+        
+        
+    }
     
 }
 
@@ -375,8 +399,9 @@ border-spacing: 0;
     }
     
     a.btn-learnmore:hover {
-        color: grey;
-        background-color: white;
+        color: white;
+        background-color: dodgerblue;
+        border: 2px solid dodgerblue;
     }
     
 }
