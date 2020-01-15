@@ -164,7 +164,7 @@ border-spacing: 0;
         float: left;
     }
     
-    .menu-link {
+    .menu-link, menu-link-icon {
         text-decoration: none;
         position: relative;
         top: 22;
@@ -210,20 +210,20 @@ border-spacing: 0;
 
 @media screen and (max-width: 849px) {
 
-.hamburger {
-      background:none;
+    .hamburger {
+      background: none;
       position: absolute;
       top: 10px;
       right: 20px;
-      line-height:45px;
+      line-height: 45px;
       padding:5px 15px 0px 15px;
-      color:#999;
-      border:0;
-      font-size:1.2em;
-      font-weight:bold;
-      cursor:pointer;
-      outline:none;
-      z-index:10000000000000;
+      color: #999;
+      border: 0;
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+      z-index: 10000000000000;
     }
 
     .cross {
@@ -232,22 +232,25 @@ border-spacing: 0;
       top: 10px;
       right: 20px;
       padding: 7px 15px 0px 15px;
-      color:#999;
-      border:0;
-      font-size:2.5em;
-      line-height:65px;
-      font-weight:bold;
-      cursor:pointer;
-      outline:none;
-      z-index:10000000000000;
-        margin-top: 3px;
+      color: #999;
+      border: 0;
+      font-size: 2.5em;
+      line-height: 65px;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+      z-index: 10000000000000;
+      margin-top: 3px;
     }
 
-    .menu-link {
+    .menu-link, .menu-link-icon {
         text-decoration: none;
         position: relative;
-        top: 20;
         padding: 20px 20px 24px 20px;
+    }
+    
+    .menu-link-icon {
+        top: 20;
         margin-top: 50px;
     }
 
@@ -255,22 +258,28 @@ border-spacing: 0;
         padding: 11px;
     }
     
+    .main-menu li:hover {
+        padding: 11px;
+        color: white;
+        background-color: dodgerblue;
+    }
+    
     .menu {
-        width:100%; 
-        background:#f1f1f1;  
-        position:absolute;
+        width: 100%; 
+        background: #f1f1f1;  
+        position: absolute;
         left: 0;
         top: 70;
-        text-align:center;
-        height: 245px;
+        text-align: center;
+        height: 200px;
     }
     
     header {
-        width:100%; 
-        background:#ffffff; 
-        height:60px; 
-        line-height:40px;
-        display:inline-block; 
+        width: 100%; 
+        background: #ffffff; 
+        height: 60px; 
+        line-height: 40px;
+        display: inline-block; 
     }  
     
 }
@@ -338,7 +347,6 @@ border-spacing: 0;
         margin-top: 0;
         margin-bottom: .5em;
         font-size: 3em;
-        text-align: center;
     }
     
  #hero {
@@ -375,8 +383,9 @@ border-spacing: 0;
     }
     
     a.btn-learnmore:hover {
-        color: grey;
-        background-color: white;
+        color: white;
+        background-color: dodgerblue;
+        border: 2px solid dodgerblue;
     }
     
 }

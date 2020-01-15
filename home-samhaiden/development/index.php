@@ -53,7 +53,7 @@
         
          <ul class="logo">
              
-             <li><a class="menu-link" href="https://www.samhaiden.com">Sam Haiden</a></li>
+             <li><a class="menu-link-icon" href="https://www.samhaiden.com">Sam Haiden</a></li>
              
          </ul>
 
@@ -84,6 +84,7 @@
             </ul>
     
     </nav>
+
      
     <!-- <?php include("include/menu.php");?> -->
      
