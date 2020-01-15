@@ -171,7 +171,7 @@ border-spacing: 0;
         padding: 20px 20px 24px 20px;
     }
     
-    .menu-link:hover, .menu-link-icon {
+    .menu-link:hover, .menu-link-icon:hover {
         background-color: dodgerblue;
         color: white;
     }
