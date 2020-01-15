@@ -217,6 +217,7 @@ border-spacing: 0;
       right: 20px;
       line-height: 45px;
       padding:5px 15px 0px 15px;
+<<<<<<< HEAD
       color: #999;
       border: 0;
       font-size: 1.2em;
@@ -224,6 +225,15 @@ border-spacing: 0;
       cursor: pointer;
       outline: none;
       z-index: 10000000000000;
+=======
+      color:#999;
+      border:0;
+      font-size:1.2em;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:100;
+>>>>>>> c26e90ad4128ed070a97ca2f997da1a9ee3d0051
     }
 
     .cross {
@@ -232,6 +242,7 @@ border-spacing: 0;
       top: 10px;
       right: 20px;
       padding: 7px 15px 0px 15px;
+<<<<<<< HEAD
       color: #999;
       border: 0;
       font-size: 2.5em;
@@ -252,10 +263,48 @@ border-spacing: 0;
     .menu-link-icon {
         top: 20;
         margin-top: 50px;
+=======
+      color:#999;
+      border:0;
+      font-size:2.5em;
+      line-height:65px;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:10000000000000;
+      margin-top: 3px;
+    }
+
+    .menu-logo {
+        position: relative;
+        top: 20;
+        padding: 30px 20px 20px 20px;
+>>>>>>> c26e90ad4128ed070a97ca2f997da1a9ee3d0051
     }
 
     .main-menu li {
-        padding: 11px;
+        padding: 15px;
+    }
+    
+    .main-menu li:hover {
+        padding: 15px;
+        background-color: dodgerblue;
+    }
+    
+    .menu-logo:hover {
+        background-color: dodgerblue;
+        color: white;
+        padding: 30px 20px 20px 20px;
+        
+    }
+    
+    .menu-link {
+        padding: 10px 100px;
+    }
+    
+    .menu-link:hover {
+        color: white;
+        
     }
     
     .main-menu li:hover {
@@ -270,8 +319,13 @@ border-spacing: 0;
         position: absolute;
         left: 0;
         top: 70;
+<<<<<<< HEAD
         text-align: center;
         height: 200px;
+=======
+        text-align:center;
+        height: 240px;
+>>>>>>> c26e90ad4128ed070a97ca2f997da1a9ee3d0051
     }
     
     header {
@@ -281,6 +335,11 @@ border-spacing: 0;
         line-height: 40px;
         display: inline-block; 
     }  
+    
+    li {
+        
+        
+    }
     
 }
 
